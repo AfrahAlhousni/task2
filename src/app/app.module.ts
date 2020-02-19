@@ -8,6 +8,7 @@ import { ChecklistpageComponent } from './checklistpage/checklistpage.component'
 
 import { Routes, RouterModule } from '@angular/router';
 import { ProjectmanagementpageComponent } from './projectmanagementpage/projectmanagementpage.component';
+import { FinalprojectmanagementpageComponent } from './finalprojectmanagementpage/finalprojectmanagementpage.component';
 
 
 // const ROUTES: Route[] = [
@@ -34,7 +35,8 @@ import { ProjectmanagementpageComponent } from './projectmanagementpage/projectm
   declarations: [
     AppComponent,
     ChecklistpageComponent,
-    ProjectmanagementpageComponent
+    ProjectmanagementpageComponent,
+    FinalprojectmanagementpageComponent
   ],
   imports: [
     BrowserModule,
