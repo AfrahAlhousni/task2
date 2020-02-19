@@ -1,0 +1,175 @@
+
+  .first-column {
+      font-size: 2rem;
+      border-width:2px;
+      border-color:#000;  
+      background-color: rgba(255, 203, 5, 0.1);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      
+      height:100%;
+  
+  }
+
+  .second-column {
+  
+    
+    width:970px;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    
+  }
+  .first-column,.second-column{
+      display:inline-block;
+  }
+
+  .container{
+      padding:0px;
+      margin:0px;
+      height:100%;
+      /* width:100%; */
+  }
+
+  .traingle{
+     margin-left:166px;
+     margin-top:-63px;
+     margin-bottom: 40px;
+  }
+
+  .companynme{
+      font-size:10px;
+      margin-top:-150px;
+      margin-left:50px;
+      
+      
+  }
+
+  .companynme p{
+      font-size:12px;
+      /* margin-bottom: 20px; */
+  }
+
+  .loogo{
+      margin-top:-90px;
+      position: absolute;
+  }
+
+  .companynme,.loogo{
+      display:inline-block;
+      /* position: absolute; */
+  }
+
+
+  .checklistresult{
+      background-color:rgba(0, 166, 81, 0.9);
+      width:170px;
+      height:30px;
+      border-radius: 2px;
+      color:white;
+      text-align:center;
+      padding-top:7px;
+      margin-top: 40px;;
+      
+      
+  }
+
+  hr{
+      border:black 2px solid;
+      margin-left:5px;
+      width:190px;
+  }
+
+  .management h5{
+      padding-top: 12px;;
+  }
+
+  .management{
+      margin-bottom: 52px;;
+  }
+
+  .btn-red{
+    background-color: rgba(208, 2, 27, 1);
+    color: white;
+    width:170px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-bottom:15px;
+}
+
+.setting{
+    font-size:12px;
+    margin-left:40px;
+}
+
+.bottomshape{
+    width:300px;
+    height:100px;
+    margin-left:650px;
+    bottom:0px;
+    right:0px;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+    /* position: absolute; */
+    margin-right: 0px;
+    padding-right:0px;
+    
+    
+    
+}
+.shadow-lg{
+    height:400px;
+    /* position: absolute; */
+    width:900px;
+    margin-left:30px;
+}
+
+.checklistresultp{
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left:30px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .input-group{
+      width:300px;
+      margin-left:627px;
+      position: absolute;
+  }
+
+  .input-group,.checklistresultp{
+      display:inline-block;
+      margin-top:50px;
+  }
+
+  .pages{
+      font-weight: bold;
+      margin-left:30px;
+      margin-top:10px;
+      position: absolute;
+  }
+
+  .bottomshape,.pages{
+      display: inline-block;
+  }
+
+  .form-control-feedback{
+      color:grey;
+      margin-top:10px;
+  }
+
