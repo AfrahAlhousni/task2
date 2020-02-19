@@ -104,7 +104,7 @@
 .bottomshape{
     width:300px;
     height:100px;
-    margin-left:650px;
+    margin-left:675px;
     bottom:0px;
     right:0px;
     margin-bottom: 0px;
@@ -112,16 +112,18 @@
     /* position: absolute; */
     margin-right: 0px;
     padding-right:0px;
+    margin-top: 381px;;
     
     
     
-}
-.shadow-lg{
+  }
+  .shadow-lg{
     height:400px;
     /* position: absolute; */
     width:900px;
     margin-left:30px;
-}
+    position: absolute;
+  }
 
 .checklistresultp{
     font-size:20px;
@@ -158,11 +160,12 @@ table {
   }
 
   .pages{
-      font-weight: bold;
-      margin-left:30px;
-      margin-top:10px;
-      position: absolute;
-  }
+    font-weight: bold;
+    margin-left:30px;
+    margin-top:px;
+    position: absolute;
+    bottom:30px;
+}
 
   .bottomshape,.pages{
       display: inline-block;

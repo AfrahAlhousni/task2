@@ -7,6 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ChecklistpageComponent } from './checklistpage/checklistpage.component';
 
 import { Routes, RouterModule } from '@angular/router';
+import { ProjectmanagementpageComponent } from './projectmanagementpage/projectmanagementpage.component';
 
 
 // const ROUTES: Route[] = [
@@ -32,7 +33,8 @@ import { Routes, RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    ChecklistpageComponent
+    ChecklistpageComponent,
+    ProjectmanagementpageComponent
   ],
   imports: [
     BrowserModule,
