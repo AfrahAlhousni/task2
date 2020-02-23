@@ -2,14 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { ChecklistpageComponent } from './checklistpage/checklistpage.component';
+
 
 import { Routes, RouterModule } from '@angular/router';
 import { ProjectmanagementpageComponent } from './projectmanagementpage/projectmanagementpage.component';
 import { FinalprojectmanagementpageComponent } from './finalprojectmanagementpage/finalprojectmanagementpage.component';
-
+import { LoginComponent } from './login/login.component';
+import { ChecklistpageComponent } from './checklistpage/checklistpage.component';
+import { AppComponent } from './app.component';
 
 // const ROUTES: Route[] = [
 
@@ -19,14 +21,16 @@ import { FinalprojectmanagementpageComponent } from './finalprojectmanagementpag
 
 // ];
 
-// const routes: Routes = [
-//   { path: '', component:ChecklistpageComponent  },
-//   // { path: 'login', component: LoginComponent },
-//   // { path: 'register', component: RegisterComponent },
+const routes: Routes = [
+  { path: 'login', component:LoginComponent},
+  { path: 'checklist', component: ChecklistpageComponent },
+  { path: 'projectmanagement', component: ProjectmanagementpageComponent},
+  { path: 'createproject', component: FinalprojectmanagementpageComponent},
+  { path: '', redirectTo: '/login', pathMatch: 'full' }
 
-//   // // otherwise redirect to home
-//   // { path: '**', redirectTo: '' }
-// ];
+  // // otherwise redirect to home
+  // { path: '**', redirectTo: '' }
+];
 
 // export const appRoutingModule = RouterModule.forRoot(routes);
 
@@ -36,7 +40,8 @@ import { FinalprojectmanagementpageComponent } from './finalprojectmanagementpag
     AppComponent,
     ChecklistpageComponent,
     ProjectmanagementpageComponent,
-    FinalprojectmanagementpageComponent
+    FinalprojectmanagementpageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

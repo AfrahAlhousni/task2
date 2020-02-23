@@ -94,7 +94,7 @@ hr{
   width:170px;
   margin-left:50px;
   margin-top:50px;
-  margin-bottom:15px;
+  margin-bottom:13px;
 }
 
 .btn-blue{
@@ -135,7 +135,7 @@ hr{
   /* position: absolute; */
   margin-right: 0px;
   padding-right:0px;
-  margin-top: 381px;;
+  margin-top: 384px;;
   
   
   
@@ -233,6 +233,13 @@ tr:nth-child(even) {
     -ms-filter: blur(4px);
     filter: blur(4px) saturate(75%);
     position: absolute;
+}
+
+.close{
+  color:black;
+  margin-top:-50px;
+  margin-right:20px;
+  font-size:25px;
 }
 
 .createprojectp{

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ChecklistpageComponent } from './checklistpage/checklistpage.component';
+
 
 @Component({
   selector: 'app-root',
@@ -8,5 +8,4 @@ import { ChecklistpageComponent } from './checklistpage/checklistpage.component'
 })
 export class AppComponent {
   title = 'task2';
-  rootPage:any = ChecklistpageComponent;
 }

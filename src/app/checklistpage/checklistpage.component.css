@@ -74,10 +74,11 @@
   }
 
   hr{
-      border:black 2px solid;
-      margin-left:5px;
-      width:190px;
-  }
+    border:black 2px solid;
+    margin-left:35px;
+    width:190px;
+}
+
 
   .management h5{
       padding-top: 12px;;
@@ -93,7 +94,7 @@
     width:170px;
     margin-left:50px;
     margin-top:50px;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 .setting{
@@ -104,18 +105,15 @@
 .bottomshape{
     width:300px;
     height:100px;
-    margin-left:675px;
+    margin-left:690px;
     bottom:0px;
     right:0px;
-    margin-bottom: 0px;
+    margin-bottom: -50px;
     padding-bottom:0px;
     /* position: absolute; */
-    margin-right: 0px;
+    margin-right:0px;
     padding-right:0px;
-    margin-top: 381px;;
-    
-    
-    
+    margin-top: 411px;
   }
   .shadow-lg{
     height:400px;
@@ -137,6 +135,7 @@ table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
+    position: absolute;
   }
   
   th, td {
